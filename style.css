@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+    font-family: 'Noto Sans JP';
+    background-color: rgb(55, 52, 90);
+}
+
+.header {
+    margin-top: 2em;
+    color: white;
+}
+
+.addButton {
+    margin-bottom: 2em;
+}
+
+.row {
+    margin-bottom: 1em;
+}
