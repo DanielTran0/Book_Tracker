@@ -17,3 +17,32 @@ body {
 .row {
     margin-bottom: 1em;
 }
+
+@media (max-width: 1000px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row > div {
+        width: 100%;
+    }
+
+    .header {
+        text-align: center;
+    }
+    
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .addButton {
+        margin: 2em auto;
+        text-align: center;
+    }
+
+}
